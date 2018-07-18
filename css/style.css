@@ -1,0 +1,172 @@
+
+* {  
+  font-family:Open Sans, sans-serif;
+  color: #1f1f1f;
+}
+
+* {
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+div.page-border {
+    width: 1100px;
+    margin: auto;
+    border-color:#7d97ad;
+    border:solid;
+  }
+
+div.main-content {
+  width: 960px;
+  margin: auto;
+}
+
+div.main-title {
+  margin-left: auto;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+div.main-title h1 {
+  font-size: 58px;
+  font-weight: 100;
+  margin-bottom: 0;
+  color:black;
+}
+
+div.main-title h2 {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+header.main-header {
+  align-items: center;
+  border-bottom: 5px solid silver;
+  margin-bottom: 30px;
+}
+
+div.main-img {
+  max-height: 400px;
+  overflow: hidden;
+}
+
+div.main-img img {
+  width: 100%;
+}
+
+section.featured .row {
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.featured-images {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.featured div {
+  text-align: center;
+}
+
+.featured p {
+  margin-top: 0;
+}
+
+.featured p a {
+  color: #680C0C;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div.featured-images img {
+  max-width: 300px;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: 300;
+  color:#7d97ad;
+  margin: 30px 5px 10px 5px;
+}
+
+h3 {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin: 10px 0;
+  color: black;
+}
+h4 {
+    font-size: 26px;  
+     margin: 5px 3px;
+     color:#2d3c49;
+  }
+  
+.row{
+  margin-bottom: 20px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+
+.paragraph-text{
+    text-align:justify;
+}
